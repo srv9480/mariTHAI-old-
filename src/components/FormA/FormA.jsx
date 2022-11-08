@@ -2,7 +2,7 @@
 // import { MoreResources, DisplayFormikState } from "./helper";
 
 
-import React, { useRef }from 'react';
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { Formik } from "formik";
 import * as Yup from "yup";
@@ -13,9 +13,7 @@ import './styles.less'
 const FromM = () => (
  
   <div className="app">
-    
     <Formik
-    
       initialValues={{ phone: "", name: "" }}
       onSubmit={async values => {
         await new Promise(resolve => setTimeout(resolve, 500));
@@ -23,12 +21,11 @@ const FromM = () => (
       }}
       validationSchema={Yup.object().shape({
         phone: Yup.string()
-          //.phone()
           .min(2, "C'mon, your name is longer than that")
-          .required("Не верно введен email адрес"),
+          .required("1"),
         name: Yup.string()
           .min(2, "C'mon, your name is longer than that")
-          .required('Не верно введено Имя'),
+          .required('2'),
       })}
     >
       {props => {
@@ -85,26 +82,7 @@ const FromM = () => (
             {errors.name && touched.name && (
               <div className="input-feedback" style={{color: 'red'}}>{errors.name}</div>
             )}
-            {/* <label htmlFor="Email" style={{ display: "block" }}>
-            </label>
-            <input
-              name="email"
-              id="email"
-              placeholder="Email "
-              type="text"
-              value={values.email}
-              onChange={handleChange}
-              onBlur={handleBlur}
-              className={
-                errors.email && touched.email
-                  ? "text-input error"
-                  : "text-input"
-              }
-            />
-            {errors.email && touched.email && (
-              <div className="input-feedback" style={{color: 'red'}}>Не верно указан email</div>
-            )} */}
-
+            
                        <label htmlFor="phone" style={{ display: "block" }}>
             </label>
             <input
@@ -140,31 +118,3 @@ const FromM = () => (
 );
 
 export default FromM;
-
-
-// export const ContactUs = () => {
-//   const form = useRef();
-
-//   const sendEmail = (e) => {
-//     e.preventDefault();
-
-//     emailjs.sendForm('service_nofycoq', 'template_vmczf8v', form.current, 'kdldrU3P9sv43g9vB')
-//       .then((result) => {
-//           console.log(result.text);
-//       }, (error) => {
-//           console.log(error.text);
-//       });
-//   };
-
-//   return (
-//     <form ref={form} onSubmit={sendEmail}>
-//       <label>Name</label>
-//       <input type="text" name="user_name" id="firstName"/>
-//       <label>Email</label>
-//       <input type="email" name="user_email" id="email"/>
-//       <label>Message</label>
-//       <textarea name="message" />
-     
-//     </form>
-//   );
-// };

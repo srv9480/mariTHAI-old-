@@ -1,11 +1,9 @@
 
-import FromM from '../FormA/FormA.jsx';
-import ButtonMain from '../Button/Button.jsx';
-
 import React, { useState, useCallback } from "react";
 import Modal from "@netojose/react-modal";
-import { CSSTransition } from "react-transition-group";
 import "./Modal.css";
+// import FromM from '../FormA/FormA.jsx';
+import ButtonMain from '../Button/Button.jsx';
 
 const ModalWindow = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +19,7 @@ const ModalWindow = () => {
         style={{position:'absolute', top:'16px', right:'16px', cursor: 'pointer'}}
         />
         <p>This is the modal content</p>
-        <FromM />
+         {/* <FromM />  */}
       </Modal>
     </div>
   );
