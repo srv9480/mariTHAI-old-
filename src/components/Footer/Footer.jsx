@@ -11,13 +11,13 @@ class FooterNew extends React.PureComponent {
           <div className='footer-content'>
             <div className='footer-content-social'>
               <a href='./'>
-                <img src={instagram} width={30} height={30} />
+                <img src={instagram} className='img-effect' width={30} height={30} />
               </a>
               <a href='./'>
-                <img src={instagram} width={30} height={30} />
+                <img src={instagram} className='img-effect' width={30} height={30} />
               </a>
               <a href='./'>
-                <img src={instagram} width={30} height={30} />
+                <img src={instagram} className='img-effect' width={30} height={30} />
               </a>
             </div>
             <div className='footer-content-text'>

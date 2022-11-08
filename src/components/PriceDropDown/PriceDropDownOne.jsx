@@ -1,8 +1,7 @@
-import { Collapse, Col, Row } from 'antd';
+import { Collapse } from 'antd';
 import React from 'react';
 const { Panel } = Collapse;
 import './PriceDropDown.less';
-import { Button } from 'antd';
 import image1 from '../../assets/images/image1.jpg';
 import imageTropic from '../../assets/images/item2-image-tropic.jpg';
 import image3 from '../../assets/images/image3.jpg';
@@ -13,10 +12,7 @@ import imageFacial from '../../assets/images/item7-images-facial.jpg';
 import imageSpeam from '../../assets/images/item8-images-speam.jpg';
 import imageCellulite from '../../assets/images/item9-images-cellulite.jpg';
 import imageLimpho from '../../assets/images/item10-images-limpho.jpg';
-import imageSpaThai from '../../assets/images/image11-images-spaThai.jpg';
-import imageSpaExspress from '../../assets/images/image12-images-SpaExspress.jpg';
 import ButtonLarge from './../Button/ButtonLarge';
-
 
 
 const text = (
@@ -373,7 +369,7 @@ const PriceDropDownOne = () => (
           внешняя часть запястья, локти, предплечья, колени и ступни, а также проработка суставов и
           связок.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -400,7 +396,7 @@ const PriceDropDownOne = () => (
           тайского состоит в направленности на работу с мышечной тканью, в то время как тайский
           массаж направлен на проработку суставов и связок.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -429,7 +425,7 @@ const PriceDropDownOne = () => (
           Результат: глубокий отдых, успокоение, восстановление душевных сил, легкость во всем теле и
           прекрасное настроение!
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -462,7 +458,7 @@ const PriceDropDownOne = () => (
           напоминает, что на самом деле должен чувствовать человек: расслабление, покой и
           умиротворение.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -494,7 +490,7 @@ const PriceDropDownOne = () => (
           <br />
           - восстанавливается работоспособность и жизненный тонус
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -522,7 +518,7 @@ const PriceDropDownOne = () => (
           если делать массаж регулярно, то можно забыть, что значат слова «шею защемило».
           Некоторое время после массажа возможно даже легкое головокружение от притока кислорода.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -555,7 +551,7 @@ const PriceDropDownOne = () => (
           Укрепляет мышцы, за счет чего кожа лица становится более упругой и подтянутой;
           1000 р
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -584,7 +580,7 @@ const PriceDropDownOne = () => (
           проработку проблемных участков, которые потом долгое время остаются в тонусе,
           подтянутыми и упругими.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -612,7 +608,7 @@ const PriceDropDownOne = () => (
           уменьшения. Процедура полезна для женщин с малоподвижной работой, а также всем, кто
           заботится о красоте своих ног и бедер.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -648,7 +644,7 @@ const PriceDropDownOne = () => (
           - выводит токсины из организма
           <br />
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>

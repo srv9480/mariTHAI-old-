@@ -2,36 +2,9 @@ import { Collapse } from 'antd';
 import React from 'react';
 const { Panel } = Collapse;
 import './PriceDropDown.less';
-import { Button } from 'antd';
 import ButtonLarge from './../Button/ButtonLarge';
-import image1 from '../../assets/images/image1.jpg';
-import imageTropic from '../../assets/images/item2-image-tropic.jpg';
-import image3 from '../../assets/images/image3.jpg';
-import imageFoot from '../../assets/images/item4-image-foot.jpg';
-import imageThoughs from '../../assets/images/item5-images-thoughs.jpg';
-import imageNeck from '../../assets/images/item6-images-neck.jpg';
-import imageFacial from '../../assets/images/item7-images-facial.jpg';
-import imageSpeam from '../../assets/images/item8-images-speam.jpg';
-import imageCellulite from '../../assets/images/item9-images-cellulite.jpg';
-import imageLimpho from '../../assets/images/item10-images-limpho.jpg';
 import imageSpaThai from '../../assets/images/image11-images-spaThai.jpg';
 import imageSpaExspress from '../../assets/images/image12-images-SpaExspress.jpg';
-
-
-
-const text = (
-  <p
-    style={{
-      paddingLeft: 24,
-    }}
-  >
-    A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found
-    as a welcome guest in many households across the world.
-  </p>
-);
-
-
-
 
 
 const item1 = (
@@ -56,7 +29,9 @@ const item1 = (
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
             <div style={{ marginBottom: '10px' }}>от 2900₽</div>
+            <div className='button-hide'>
             <ButtonLarge /> 
+          </div>
           </div>
         </div>
       </div>
@@ -86,7 +61,9 @@ const item2 = (
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
             <div style={{ marginBottom: '10px' }}>от 2300₽</div>
+            <div className='button-hide'>
             <ButtonLarge /> 
+          </div>
           </div>
         </div>
       </div>
@@ -124,7 +101,7 @@ const PriceDropDownTwo = () => (
           Целый час удовольствия и полного релакса. Каждая процедура приятна и полезна сама по себе,
           но вместе они дают просто потрясающий эффект.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>
@@ -153,7 +130,7 @@ const PriceDropDownTwo = () => (
           - Чистый лотос
           <br />
         </div>
-        <div className='button-hide-off' style={{maxWidth: '220px', margin: '0 auto'}}>
+        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
           <ButtonLarge /> 
         </div>
       </div>

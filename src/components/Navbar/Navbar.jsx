@@ -32,7 +32,7 @@ const Navbar = () => {
           to="about-info"
           spy={true}
           smooth={true}
-          offset={90}
+          offset={50}
           duration={500}
         >
           Услуги
@@ -55,7 +55,7 @@ const Navbar = () => {
           to="section3"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={1580}
           duration={500}
         >
           Контакты

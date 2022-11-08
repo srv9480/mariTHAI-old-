@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
 import BannerImage from './BannerImage';
 import ModalWindow from '../components/Modal/Modal';
 
@@ -23,17 +22,8 @@ class Banner extends React.PureComponent {
               Настоящий тайский массаж
             </h1>
             <p key="p" style={{color: 'white'}}>Открой магию Тайланда в нашем салоне!</p>
-            <p key="p" className='cta-info' style={{color: 'white', marginTop: '120px'}}>Запишись сейчас и получи скидку 15%</p>
-            {/* <span key="button">
-              {/* <Button
-                type="primary"
-              >
-                Получить
-              </Button> 
-              
-            </span>*/}
+            <p key="p" className='cta-info' style={{color: 'white', marginTop: '90px'}}>Запишись сейчас и получи скидку 15%</p>
            <ModalWindow />   
-      {/*   < Contact />*/}
           </QueueAnim>
           <div className={`${className}-image-wrapper`}>
             <BannerImage /> 

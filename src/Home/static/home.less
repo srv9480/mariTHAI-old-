@@ -26,10 +26,19 @@
       height: 100%;
 
       .container-contacts {
+        display: flex;
+        justify-content: space-between;
         .container-contacts-right {
           .contacts-right-main {
+            padding: 1.5rem;
+            width: 100%;
             color: black;
           }
+        }
+      }
+      @media screen and (max-width: 1220px){
+        .container-contacts {
+        display: block!important;
         }
       }
     }
@@ -330,7 +339,6 @@
   }
 
   .masters-content-images {
-
     background-repeat: no-repeat;
     background-image: url('https://gw.alipayobjects.com/zos/rmsportal/yKHLCeGLgdFoxFXhzFtu.jpg');
   }
@@ -338,19 +346,20 @@
 
 @media screen and (max-width: 768px) {
   .home-page .home-banner h1 {
-    font-size: 28px;
-    line-height: 19px;
+    font-size: 32px;
+    line-height: 1;
     color: #151515;
     max-width: 468px;
     width: 100%;
     margin: 0 auto;
-    word-break:break-all;
   }
 
   .home-page .home-banner p {
-    font-size: 28px;
+    font-size: 26px;
     max-width: 468px;
+    line-height: 1;
     width: 100%;
+    padding-top: 1rem;
     margin: 0 auto;
   }
 

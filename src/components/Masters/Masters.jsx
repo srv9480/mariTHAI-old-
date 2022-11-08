@@ -38,21 +38,21 @@ const Masters = () => {
       <div className="main-masters">
         <div className="img-container">
           <img src={master3} alt={name} className="person-img" /></div>
-        <div className="name-master">Мастер Пусси</div>
+        <div className="name-master">Мастер X</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">{text}</div>
       </div>
       <div className="main-masters">
         <div className="img-container">
-          <img src={master3} alt={name} classN  className="person-img" /></div>
-        <div className="name-master">Мастер Пусси</div>
+          <img src={master3} alt={name} className="person-img" /></div>
+        <div className="name-master">Мастер Y</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">{text}</div>
       </div>
       <div className="main-masters">
         <div className="img-container">
-          <img src={master3} alt={name} classN  className="person-img" /></div>
-        <div className="name-master">Мастер Пусси</div>
+          <img src={master3} alt={name} className="person-img" /></div>
+        <div className="name-master">Мастер Z</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">{text}</div>
       </div>

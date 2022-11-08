@@ -9,17 +9,15 @@ export default function YMap() {
   };
   const coordinates = [
     [55.857991, 37.556012],
-    [57.684758, 39.738521]
   ];
 
   return (
-    // Important! Always set the container height explicitly
-    <div>
-      <YMaps>
-        <Map defaultState={mapData } width={740} height={480}>
+    <div style={{maxWidth: '1220px', height: '420px'}}>
+      <YMaps >
+        <Map defaultState={ mapData } class={'map-large'} width={680} height={420}>
           {coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
         </Map>
       </YMaps>
-    </div>
+      </div>
   );
 }

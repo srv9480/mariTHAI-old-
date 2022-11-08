@@ -20,7 +20,7 @@ function Footer() {
       <div className="footer-wrapper-img">
         <div className="home-layout">
           {/* {antCloudFooter()} */}
-          <div style={{padding:'1rem'}}>
+          <div className='img-block' style={{padding:'1rem'}}>
           <img src="https://i.ibb.co/N2jBHK3/inst-logo.png"
             style={{ width: '30px', height: '30px' }}
           />

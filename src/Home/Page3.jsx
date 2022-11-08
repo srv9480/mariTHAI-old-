@@ -16,7 +16,7 @@ export default function Page3() {
       >
         <QueueAnim className="home-serve" type="bottom" key="home-func" ease="easeOutQuart" leaveReverse id='section2'>
             <h2 key="h2" style={{ color: 'white', marginTop: '150px' }}>НАШИ МАСТЕРА</h2>
-          <i key="i" className="line" id='section2'/>
+          <i key="i" className="line"/>
         
           <Masters 
        
