@@ -1,15 +1,11 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { Row, Col } from 'antd';
 import './static/custom.less';
 import PriceDropDownOne from '../components/PriceDropDown/PriceDropDownOne';
 import PriceDropDownTwo from '../components/PriceDropDown/PriceDropDownTwo';
-import { Button } from 'antd';
 
 // <---- Tabs Component ----> //
 import { Tabs } from 'antd';
-
 
 
 export default function Price() {
@@ -21,23 +17,24 @@ export default function Price() {
                         <QueueAnim className="home-func" type="bottom" key="home-func" ease="easeOutQuart" leaveReverse>
                               <div className="about-info" id='about-info'>
                                     <div className="about-info-text">
-                                          <Row>
+                                          
                                                 <div className="info-text-border">
                                                       <h2 style={{ fontSize: 36 }}>Тайский массаж MARITHAI в Москве</h2>
                                                       <div className="text-border-title" style={{ padding: '1.5rem' }}>
                                                             Мы ценин уют, комфорт и качество, именно поэтому в нашем салоне вы испыатете ту самую магию релакса, забудете о всех проблемах и полноценно отдохнете. Наши мастера настоящие профессионалы из Тайланда
+                                                            Попробуйте наши незабываемые программы из раздела МАССАЖ или SPA
                                                       </div>
                                                       <br />
                                                       <Tabs defaultActiveKey="1">
                                                             <Tabs.TabPane tab="МАССАЖ" key="1">
                                                                   <PriceDropDownOne />
                                                             </Tabs.TabPane>
-                                                            <Tabs.TabPane tab="СПА" key="2">
+                                                            <Tabs.TabPane tab="SPA" key="2">
                                                                   <PriceDropDownTwo />
                                                             </Tabs.TabPane>
                                                       </Tabs>
                                                 </div>
-                                          </Row>
+                                         
                                           <div className="info-text-service">
                                                 <div className="info-text-service-discount">
                                                       <span style={{ color: 'red', fontSize: '24px' }}>Скидка 15%</span>

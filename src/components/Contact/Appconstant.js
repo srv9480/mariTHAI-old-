@@ -370,7 +370,7 @@ export  const linksfooter=[
 ]
 export const gridservices = [
   {
-    img:'https://i.imgur.com/cvOIep6.jpg',
+    img:'https://i.imgur.com/cvOIep6.webp',
     title: 'Websites', 
     texts:['Modern', 'Style', 'Responsive'], 
     text:'Breath taking Web designs for an amazing user experience.',

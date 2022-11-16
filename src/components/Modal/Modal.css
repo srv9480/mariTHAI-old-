@@ -11,7 +11,6 @@
   opacity: 0;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
-  padding: 7rem;
 }
 
 .modal.enter-done {
@@ -40,7 +39,7 @@
 
 .modal-header,
 .modal-footer {
-  padding: 10px;
+
 }
 
 .modal-title {
@@ -48,17 +47,17 @@
 }
 
 .modal-body {
-  padding: 10px;
+
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
 
 
 .ReactModal__Modal {
- max-width: 380px!important;
- height: 400px!important;
+ max-width: 880px!important;
+ height: 492px!important;
  margin: 0 auto !important;
- padding: 45px!important;
  overflow: hidden!important;
  border-radius: 13px!important;
+ padding: 0!important;
 }

@@ -1,13 +1,11 @@
 import ButtonMain from '../Button/Button';
 import React, { useState } from "react";
-import menuItems from "./Data";
 import "./styles.css";
 import logo_main from '../../assets/images/logoOld.png';
 import burger from '../../assets/images/burger.png'
 
 import { Link, animateScroll as scroll } from "react-scroll";
 import ModalWindow from '../Modal/Modal';
-
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -55,7 +53,7 @@ const Navbar = () => {
           to="section3"
           spy={true}
           smooth={true}
-          offset={1580}
+          offset={50}
           duration={500}
         >
           Контакты

@@ -4,7 +4,7 @@
   .fd-content {
     width: 100%;
     background: rgb(148, 27, 27);
-    font-family: PingFangSC, Helvetica Neue, Helvetica, PingFang SC-Light, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    // font-family: PingFangSC, Helvetica Neue, Helvetica, PingFang SC-Light, Hiragino Sans GB, Microsoft YaHei, SimSun, serif, sans-serif;
   }
 
   h2,
@@ -28,17 +28,29 @@
       .container-contacts {
         display: flex;
         justify-content: space-between;
+
         .container-contacts-right {
+          width: 100%;
           .contacts-right-main {
             padding: 1.5rem;
             width: 100%;
             color: black;
+             display: block;
+            justify-content: space-between;
+            .btn-container {
+              display: block;
+              width: 100%;
+              button {
+                width: 50%!important;
+              }
+            }
           }
         }
       }
-      @media screen and (max-width: 1220px){
+
+      @media screen and (max-width: 1220px) {
         .container-contacts {
-        display: block!important;
+          display: block !important;
         }
       }
     }
@@ -46,23 +58,18 @@
 
   .home-layout-wrapper {
     width: 100%;
-    // height: 720px;
     height: 100vh;
     text-align: center;
     overflow: hidden;
-
     .home-layout {
       margin: 0 auto;
       max-width: 1440px;
-      padding: 0 24px;
       overflow: hidden;
       height: 100%;
-
       >div {
         float: left;
         width: 100%;
       }
-
       .col {
         .content-wrapper {
           border-radius: 4px;
@@ -74,12 +81,7 @@
       }
     }
 
-
     &:nth-of-type(odd) {
-      // background-image: url("https://i.ibb.co/yQd2qXd/Main.png");
-      // background-repeat: no-repeat;
-      // background-size: cover;
-      // background-position: top;
       color: white;
       height: 100vh;
     }
@@ -96,12 +98,17 @@
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 38px;
     color: @titleColor;
-    margin-top: 88px;
+    margin-top: 42px;
   }
 
+  .special {
+    font-size: 36px!important;
+    line-height: 38px;
+    color: @titleColor;
+  }
   h3 {
     font-size: 24px;
     line-height: 32px;
@@ -117,7 +124,6 @@
     margin: 16px auto 72px;
   }
 
-  /* banner 区域 */
   .home-banner {
     height: 656px;
     color: #fff;
@@ -154,11 +160,11 @@
       color: @titleColor;
     }
 
-    p {
-      margin-bottom: 40px;
-      font-size: 34px;
-      line-height: 28px;
-      color: @contentColor;
+    h2 {
+      font-size: 36px;
+      line-height: 38px;
+      color: @titleColor;
+      margin-top: 42px;
     }
 
     span {
@@ -185,7 +191,6 @@
   }
 
   .home-func-wrapper {
-    // height: 720px;
     height: 100%;
     text-align: center;
 
@@ -292,7 +297,6 @@
         width: 300px;
         height: 400x;
         margin: 8px auto 12px;
-        // background-image: url('https://gw.alipayobjects.com/zos/rmsportal/VMhxnfHxvCgksDCnbfQX.jpg');
       }
 
       h3 {
@@ -318,8 +322,6 @@
   }
 
   .home-user-wrapper {
-    //TODO height: 440px;
-
     h2 {
       margin-top: 64px;
     }
@@ -355,7 +357,7 @@
   }
 
   .home-page .home-banner p {
-    font-size: 26px;
+    font-size: 24px;
     max-width: 468px;
     line-height: 1;
     width: 100%;

@@ -6,7 +6,7 @@ class FooterNew extends React.PureComponent {
 
   render() {
     return (
-      <div className='footer-main'>
+      <footer className='footer-main'>
         <div className='footer-container'>
           <div className='footer-content'>
             <div className='footer-content-social'>
@@ -25,7 +25,7 @@ class FooterNew extends React.PureComponent {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       );
     }
   }

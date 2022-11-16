@@ -51,7 +51,7 @@ const item1 = (
     <div className='list_price'>
       <div style={{ display: 'flex' }}>
         <div className='i-price_item-right'>
-          <div style={{ marginBottom: '10px' }}>от 2200₽</div>
+          <div >от 2200₽</div>
           <div className='button-hide'>
             <ButtonLarge /> 
           </div>
@@ -82,7 +82,7 @@ const item2 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 2200₽</div>
+            <div >от 2200₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -113,7 +113,7 @@ const item3 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 2300₽</div>
+            <div >от 2300₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -145,7 +145,7 @@ const item4 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 1000₽</div>
+            <div >от 1000₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -177,7 +177,7 @@ const item5 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 1000₽</div>
+            <div >от 1000₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -209,7 +209,7 @@ const item6 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 1000₽</div>
+            <div >от 1000₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -241,7 +241,7 @@ const item7 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 1100₽</div>
+            <div >от 1100₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -273,7 +273,7 @@ const item8 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 2300₽</div>
+            <div >от 2300₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -305,7 +305,7 @@ const item9 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div style={{ marginBottom: '10px' }}>от 1900₽</div>
+            <div >от 1900₽</div>
             <div className='button-hide'>
               <ButtonLarge /> 
             </div>
@@ -332,7 +332,7 @@ const item10 = (
     <div className='list_price'>
       <div style={{ display: 'flex' }}>
         <div className='i-price_item-right'>
-          <div style={{ marginBottom: '10px' }}>от 1900₽</div>
+          <div >от 1900₽</div>
           <div className='button-hide'>
             <ButtonLarge /> 
           </div>
@@ -377,7 +377,7 @@ const PriceDropDownOne = () => (
     <Panel header={item2} key="2">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageTropic} alt='' width={500} height={400} />
+          <img src={imageTropic} alt=''/>
         </div>
         <div className='price-content-text'>
           Традиционный балийский массаж — это прекрасное
@@ -404,7 +404,7 @@ const PriceDropDownOne = () => (
     <Panel header={item3} key="3">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={image3} alt='' width={500} height={400} />
+          <img src={image3} alt=''/>
         </div>
         <div className='price-content-text'>
           Какой бы ни была погода за окном — oil-массаж
@@ -433,7 +433,7 @@ const PriceDropDownOne = () => (
     <Panel header={item4} key="4">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageFoot} alt='' width={500} height={400} />
+          <img src={imageFoot} alt=''/>
         </div>
         <div className='price-content-text'>
           На стопах есть множество точек, которые
@@ -466,7 +466,7 @@ const PriceDropDownOne = () => (
     <Panel header={item5} key="5">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageThoughs} alt='' width={500} height={400} />
+          <img src={imageThoughs} alt=''/>
         </div>
         <div className='price-content-text'>
           Массаж головы, ушей и лица. Это не только очень
@@ -498,7 +498,7 @@ const PriceDropDownOne = () => (
     <Panel header={item6} key="6">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageNeck} alt='' width={500} height={400} />
+          <img src={imageNeck} alt=''/>
         </div>
         <div className='price-content-text'>
           Шейно-воротниковая зона чаще других частей
@@ -526,7 +526,7 @@ const PriceDropDownOne = () => (
     <Panel header={item7} key="7">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageFacial} alt='' width={500} height={400} />
+          <img src={imageFacial} alt=''/>
         </div>
         <div className='price-content-text'>
           Массаж лица один из самых древних способов омоложения и
@@ -559,7 +559,7 @@ const PriceDropDownOne = () => (
     <Panel header={item8} key="8">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageSpeam} alt='' width={500} height={400} />
+          <img src={imageSpeam} alt=''/>
         </div>
         <div className='price-content-text'>
           Слим массаж — это верный способ создания идеальной фигуры,
@@ -588,7 +588,7 @@ const PriceDropDownOne = () => (
     <Panel header={item9} key="9">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageCellulite} alt='' width={500} height={400} />
+          <img src={imageCellulite} alt=''/>
         </div>
         <div className='price-content-text'>
           Массаж от целлюлита основан на воздействии на
@@ -616,7 +616,7 @@ const PriceDropDownOne = () => (
     <Panel header={item10} key="10">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageLimpho} alt='' width={500} height={400} />
+          <img src={imageLimpho} alt=''/>
         </div>
         <div className='price-content-text'>
           Благодаря лимфодренажному массажу исчезает

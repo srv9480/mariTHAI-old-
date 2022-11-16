@@ -44,17 +44,22 @@
 
   .price-content-img {
     display: flex;
-    width: 800px;
+    width: 49%;
     >img {
       max-width: 920px;
       width: 100%;
+      height: auto;
     }
   }
 
   .price-content-text {
     display: flex;
-    width: 46%;
+    width: 49%;
   }
+}
+
+.button-hide {
+  padding-top: .6rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -66,14 +71,11 @@
 
     .price-content-img {
       justify-content: center!important;
-      >img {
-        padding-left: 1.5rem;
-      }
+      width: 100%;
     }
   }
 
   .price-content-text {
-    padding: 1.5rem !important;
     width: 100%!important;
   }
 
@@ -95,13 +97,13 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .price-content-img {
-  }
+
   .button-hide {
     display: none;
   }
   .button-hide-off {
-    padding-bottom: 1.2rem;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
   }
   button {
     padding-left: 3rem!important;
@@ -109,18 +111,7 @@
   }
   .price-content {
     display: block;
-
-    .price-content-img {
-      >img {
-        padding-left: 1.5rem;
-      }
-    }
   }
-
-  .price-content-text {
-    padding: 1.5rem !important;
-  }
-
   .price-dropwdown-name {
     font-size: 16px;
     text-align: start;

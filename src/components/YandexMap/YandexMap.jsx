@@ -4,20 +4,25 @@ import './style.less'
 
 export default function YMap() {
   const mapData = {
-    center: [55.857991, 37.556012],
+    center: [55.861287, 37.541243],
     zoom: 15,
+    behaviors: ['disabled'],
   };
+
   const coordinates = [
-    [55.857991, 37.556012],
+    [55.861287, 37.541243],
   ];
 
   return (
-    <div style={{maxWidth: '1220px', height: '420px'}}>
-      <YMaps >
-        <Map defaultState={ mapData } class={'map-large'} width={680} height={420}>
-          {coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
+    <div>
+      <YMaps
+      >
+        <Map defaultState={mapData} class={'map-large'}
+        >
+          {coordinates.map(coordinate => <Placemark geometry={coordinate}
+          />)}
         </Map>
       </YMaps>
-      </div>
+    </div>
   );
 }

@@ -1,0 +1,106 @@
+.app {
+    height: 450px
+}
+
+button {
+    font-size: 20px
+}
+
+.input .textarea .btnForm {
+    padding: .3rem;
+    border: solid 2px black;
+    width: 100% !important;
+    border-radius: .2rem
+}
+
+textarea {
+    width: 300px;
+    height: 150px
+}
+
+.text-input {
+    padding: .6rem;
+    border-radius: 7px;
+    border: solid 2px #000;
+    margin-top: 1rem;
+    width: 100%
+}
+
+.error {
+    border: solid 2px red
+}
+.form-container {
+    text-align: center;
+    font-weight: 500;
+    max-width: 920px;
+    margin: 0 auto;
+    -webkit-box-shadow: 1px 2px 23px -5px rgb(13 9 13 / 42%);
+    -moz-box-shadow: 1px 2px 23px -5px rgba(13, 9, 13, 0.42);
+    box-shadow: 1px 2px 23px -5px rgb(90 88 88);
+    border-radius: 16px;
+    height: 433px;
+  }
+  .form-wrapper {
+    padding-top: 1.1rem;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+  }
+  
+  input {
+    max-width: 240px;
+    width: 100%;
+    padding: 0.71rem;
+    border-radius: 12px;
+    border: 1px solid #808080;
+    margin-bottom: 0.5rem;
+  }
+  button {
+    color: white;
+    width: 100%;
+    max-width: 240px;
+    padding: 0.71rem;
+    border-radius: 12px;
+    border: 1px solid orange;
+    margin-bottom: 0.5rem;
+    background-color: orange;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgba(255, 166, 0, 0.788);
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 70px;
+    /* padding: 0.25rem; */
+    width: 100%;
+    background-color: #f3f2f2;
+  }
+  .footer-text_item {
+    font-size: 13px;
+    padding-top: .4rem;
+    border: 1px solid rgba(236, 231, 231, 0.911);
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+  }
+  
