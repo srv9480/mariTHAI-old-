@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
 import ModalWindow from '../components/Modal/Modal';
+import '../assets/fonts/Lora/stylesheet.css';
 
 class Banner extends React.PureComponent {
    static propTypes = {
@@ -20,8 +21,8 @@ class Banner extends React.PureComponent {
           <h1 key="h2" style={{color: 'white'}}>
               Настоящий тайский массаж
             </h1>
-            <h2 className='special' key="h2" style={{color: 'white', fontFamily: 'Lora'}}>Открой магию Тайланда в нашем салоне!</h2>
-            <h3 key="h2" className='cta-info' style={{color: 'white', marginTop: '80px'}}>Запишись сейчас и получи скидку 15%</h3>
+            <h2 className='special' key="h2" style={{color: 'white', fontFamily: 'lora', fontWeight: 'normal', fontStyle: 'italic'}}>Открой магию Тайланда в нашем салоне!</h2>
+            <h3 key="h2" className='cta-info' style={{color: 'white', marginTop: '60px'}}>Запишись сейчас и получи скидку 15%</h3>
            <ModalWindow />   
           </QueueAnim>
         </div>

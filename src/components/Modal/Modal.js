@@ -25,7 +25,7 @@ const ModalWindow = () => {
   };
   return (
     <div>
-      <button type="button" value="Open modal" onClick={openModal}>
+      <button className='btn-large' type="button" value="Open modal" onClick={openModal}>
         Получить
       </button>
       <Modal isOpen={isOpen} onRequestClose={closeModal}>
@@ -35,7 +35,7 @@ const ModalWindow = () => {
          <div>
       <div className="form-container">
         <div className="form-wrapper">
-          <h1>Оставь заявку на получения скидки</h1>
+          <h1>Оставь заявку на получение скидки</h1>
           <h2>И мы обязательно с Вами свяжемся!</h2>
           <MyForm
             inputHandler={(e) => inputHandler(e)}

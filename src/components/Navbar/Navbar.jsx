@@ -5,7 +5,6 @@ import logo_main from '../../assets/images/logoOld.png';
 import burger from '../../assets/images/burger.png'
 
 import { Link, animateScroll as scroll } from "react-scroll";
-import ModalWindow from '../Modal/Modal';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);

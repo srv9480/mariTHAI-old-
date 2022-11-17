@@ -10,7 +10,7 @@ export default function YMap() {
   };
 
   const coordinates = [
-    [55.861287, 37.541243],
+    [55.861287, 37.541243], 
   ];
 
   return (
