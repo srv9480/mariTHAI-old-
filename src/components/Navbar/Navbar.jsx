@@ -58,7 +58,7 @@ const Navbar = () => {
           Контакты
         </Link>
         <Link
-        class="nav-links"
+        class="nav-links-i"
         >
           <ButtonMain />
         </Link>
