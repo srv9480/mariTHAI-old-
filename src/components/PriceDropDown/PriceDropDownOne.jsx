@@ -39,7 +39,7 @@ const item1 = (
     <div
       className='price-dropwdown-name'
     >
-      ГАРМОНИЧНОЕ ТЕЛО
+      Традиционный тайский массаж
     </div>
     <div
       style={{
@@ -51,9 +51,9 @@ const item1 = (
     <div className='list_price'>
       <div style={{ display: 'flex' }}>
         <div className='i-price_item-right'>
-          <div >от 2200₽</div>
+          <div >от 3400₽</div>
           <div className='button-hide'>
-            <ButtonLarge /> 
+            <ButtonLarge />
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ const item2 = (
     <div
       className='price-dropwdown-name'
     >
-      ТРОПИЧЕСКИЙ БРИЗ
+      Тайский массаж спины
     </div>
     <div
       style={{
@@ -82,9 +82,9 @@ const item2 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 2200₽</div>
+            <div >от 2100₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const item3 = (
     <div
       className='price-dropwdown-name'
     >
-      АРОМА ОИЛ МАССАЖ
+      Тайский арома ойл массаж
     </div>
     <div
       style={{
@@ -113,9 +113,9 @@ const item3 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 2300₽</div>
+            <div >от 3400₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ const item4 = (
     <div
       className='price-dropwdown-name'
     >
-      ФУТ МАССАЖ
+      Фут-массаж
     </div>
     <div
       style={{
@@ -145,9 +145,9 @@ const item4 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 1000₽</div>
+            <div >от 2100₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@ const item5 = (
     <div
       className='price-dropwdown-name'
     >
-      СВЕТЛЫЕ МЫСЛИ
+      Тайский массаж лица и головы
     </div>
     <div
       style={{
@@ -177,9 +177,9 @@ const item5 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 1000₽</div>
+            <div >от 2100₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ const item6 = (
     <div
       className='price-dropwdown-name'
     >
-      МАССАЖ ШЕИ
+      Тайский массаж шейно-воротниковой зоны
     </div>
     <div
       style={{
@@ -209,9 +209,9 @@ const item6 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 1000₽</div>
+            <div >от 2100₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -220,37 +220,37 @@ const item6 = (
   </div>
 );
 
-const item7 = (
-  <div
-    style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-    }}
-  >
-    <div
-      className='price-dropwdown-name'
-    >
-      ЛИФТИНГ-МАССАЖ ЛИЦА
-    </div>
-    <div
-      style={{
-        paddingLeft: 24,
-        display: 'flex',
-      }}
-    >
-      <div className='list_price'>
-        <div style={{ display: 'flex' }}>
-          <div className='i-price_item-right'>
-            <div >от 1100₽</div>
-            <div className='button-hide'>
-              <ButtonLarge /> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-);
+// const item7 = (
+//   <div
+//     style={{
+//       display: 'flex',
+//       justifyContent: 'space-between',
+//     }}
+//   >
+//     <div
+//       className='price-dropwdown-name'
+//     >
+//       ЛИФТИНГ-МАССАЖ ЛИЦА
+//     </div>
+//     <div
+//       style={{
+//         paddingLeft: 24,
+//         display: 'flex',
+//       }}
+//     >
+//       <div className='list_price'>
+//         <div style={{ display: 'flex' }}>
+//           <div className='i-price_item-right'>
+//             <div >от 1100₽</div>
+//             <div className='button-hide'>
+//               <ButtonLarge /> 
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// );
 
 const item8 = (
   <div
@@ -262,7 +262,7 @@ const item8 = (
     <div
       className='price-dropwdown-name'
     >
-      СПИМ МАССАЖ
+      Тайский слим массаж
     </div>
     <div
       style={{
@@ -273,9 +273,9 @@ const item8 = (
       <div className='list_price'>
         <div style={{ display: 'flex' }}>
           <div className='i-price_item-right'>
-            <div >от 2300₽</div>
+            <div >от 3600₽</div>
             <div className='button-hide'>
-              <ButtonLarge /> 
+              <ButtonLarge />
             </div>
           </div>
         </div>
@@ -284,63 +284,63 @@ const item8 = (
   </div>
 );
 
-const item9 = (
-  <div
-    style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-    }}
-  >
-    <div
-      className='price-dropwdown-name'
-    >
-      АНТИЦЕЛЛЮЛИТНЫЙ МАССАЖ
-    </div>
-    <div
-      style={{
-        paddingLeft: 24,
-        display: 'flex',
-      }}
-    >
-      <div className='list_price'>
-        <div style={{ display: 'flex' }}>
-          <div className='i-price_item-right'>
-            <div >от 1900₽</div>
-            <div className='button-hide'>
-              <ButtonLarge /> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-);
+// const item9 = (
+//   <div
+//     style={{
+//       display: 'flex',
+//       justifyContent: 'space-between',
+//     }}
+//   >
+//     <div
+//       className='price-dropwdown-name'
+//     >
+//       АНТИЦЕЛЛЮЛИТНЫЙ МАССАЖ
+//     </div>
+//     <div
+//       style={{
+//         paddingLeft: 24,
+//         display: 'flex',
+//       }}
+//     >
+//       <div className='list_price'>
+//         <div style={{ display: 'flex' }}>
+//           <div className='i-price_item-right'>
+//             <div >от 1900₽</div>
+//             <div className='button-hide'>
+//               <ButtonLarge /> 
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// );
 
-const item10 = (
-  <div
-    style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-    }}
-  >
-    <div
-      className='price-dropwdown-name'
-    >
-      ЛИМФОДРЕНАЖНЫЙ МАССАЖ
-    </div>
+// const item10 = (
+//   <div
+//     style={{
+//       display: 'flex',
+//       justifyContent: 'space-between',
+//     }}
+//   >
+//     <div
+//       className='price-dropwdown-name'
+//     >
+//       ЛИМФОДРЕНАЖНЫЙ МАССАЖ
+//     </div>
 
-    <div className='list_price'>
-      <div style={{ display: 'flex' }}>
-        <div className='i-price_item-right'>
-          <div >от 1900₽</div>
-          <div className='button-hide'>
-            <ButtonLarge /> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-);
+//     <div className='list_price'>
+//       <div style={{ display: 'flex' }}>
+//         <div className='i-price_item-right'>
+//           <div >от 1900₽</div>
+//           <div className='button-hide'>
+//             <ButtonLarge /> 
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// );
 
 
 const PriceDropDownOne = () => (
@@ -369,42 +369,33 @@ const PriceDropDownOne = () => (
           внешняя часть запястья, локти, предплечья, колени и ступни, а также проработка суставов и
           связок.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
     <Panel header={item2} key="2">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageTropic} alt=''/>
+          <img src={imageTropic} alt='' />
         </div>
         <div className='price-content-text'>
-          Традиционный балийский массаж — это прекрасное
-          средство снятия мышечного напряжения,
-          уменьшения стресса, обретения душевного
-          спокойствия и равновесия. Балийский массаж
-          приводит мышцы в тонус, наполняя человека
-          огромной энергией, насыщает тело кислородом и
-          подходит всем людям, заботящимся о своём
-          здоровье и самочувствии.
-          Балийский массаж - это техника массажа, включающая в себя разные методики воздействия
-          на тело человека через кожу и энергетические поля. В нем сочетаются и комбинируются
-          классический массаж, аромотерапия, точечный массаж и некоторые приемы аювердической
-          медицины.
-          Балийский массаж — это более расслабляющее направление массажа, его отличие от
-          тайского состоит в направленности на работу с мышечной тканью, в то время как тайский
-          массаж направлен на проработку суставов и связок.
+          Спина — это важная часть нашего тела. Она поддерживает в нужном положении позвоночник и позволяет совершать самые разные движения. Наклоны и повороты, движения рук и шеи — всё это делают мышцы спины. Даже прямо стоять без них мы бы не смогли. Это возможно благодаря тому, что мышцы спины очень разные по форме и назначению.
+          <br />
+          Здоровую спину мы часто воспринимаем как что-то само собой разумеющееся. И порой перестаем ее даже замечать. А ведь на протяжении всей жизни человека спина напряжена. В какие-то периоды больше, в какие-то меньше. Поэтому крайне важно уделять ей больше внимания и почаще давать расслабиться.
+          <br />
+          После тайского массажа спины вы почувствуете прилив сил и энергии. Это отличный способ расслабиться с пользой для организма.
+          <br />
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
     <Panel header={item3} key="3">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={image3} alt=''/>
+          <img src={image3} alt='' />
         </div>
         <div className='price-content-text'>
           Какой бы ни была погода за окном — oil-массаж
@@ -425,15 +416,15 @@ const PriceDropDownOne = () => (
           Результат: глубокий отдых, успокоение, восстановление душевных сил, легкость во всем теле и
           прекрасное настроение!
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
     <Panel header={item4} key="4">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageFoot} alt=''/>
+          <img src={imageFoot} alt='' />
         </div>
         <div className='price-content-text'>
           На стопах есть множество точек, которые
@@ -458,15 +449,15 @@ const PriceDropDownOne = () => (
           напоминает, что на самом деле должен чувствовать человек: расслабление, покой и
           умиротворение.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
     <Panel header={item5} key="5">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageThoughs} alt=''/>
+          <img src={imageThoughs} alt='' />
         </div>
         <div className='price-content-text'>
           Массаж головы, ушей и лица. Это не только очень
@@ -490,15 +481,15 @@ const PriceDropDownOne = () => (
           <br />
           - восстанавливается работоспособность и жизненный тонус
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
     <Panel header={item6} key="6">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageNeck} alt=''/>
+          <img src={imageNeck} alt='' />
         </div>
         <div className='price-content-text'>
           Шейно-воротниковая зона чаще других частей
@@ -518,12 +509,12 @@ const PriceDropDownOne = () => (
           если делать массаж регулярно, то можно забыть, что значат слова «шею защемило».
           Некоторое время после массажа возможно даже легкое головокружение от притока кислорода.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
-    <Panel header={item7} key="7">
+    {/* <Panel header={item7} key="7">
       <div className='price-content'>
         <div className='price-content-img'>
           <img src={imageFacial} alt=''/>
@@ -555,11 +546,11 @@ const PriceDropDownOne = () => (
           <ButtonLarge /> 
         </div>
       </div>
-    </Panel>
+    </Panel> */}
     <Panel header={item8} key="8">
       <div className='price-content'>
         <div className='price-content-img'>
-          <img src={imageSpeam} alt=''/>
+          <img src={imageSpeam} alt='' />
         </div>
         <div className='price-content-text'>
           Слим массаж — это верный способ создания идеальной фигуры,
@@ -580,12 +571,12 @@ const PriceDropDownOne = () => (
           проработку проблемных участков, которые потом долгое время остаются в тонусе,
           подтянутыми и упругими.
         </div>
-        <div className='button-hide-off' style={{maxWidth: '180px', margin: '0 auto'}}>
-          <ButtonLarge /> 
+        <div className='button-hide-off' style={{ maxWidth: '180px', margin: '0 auto' }}>
+          <ButtonLarge />
         </div>
       </div>
     </Panel>
-    <Panel header={item9} key="9">
+    {/* <Panel header={item9} key="9">
       <div className='price-content'>
         <div className='price-content-img'>
           <img src={imageCellulite} alt=''/>
@@ -612,8 +603,8 @@ const PriceDropDownOne = () => (
           <ButtonLarge /> 
         </div>
       </div>
-    </Panel>
-    <Panel header={item10} key="10">
+    </Panel> */}
+    {/* <Panel header={item10} key="10">
       <div className='price-content'>
         <div className='price-content-img'>
           <img src={imageLimpho} alt=''/>
@@ -648,7 +639,7 @@ const PriceDropDownOne = () => (
           <ButtonLarge /> 
         </div>
       </div>
-    </Panel>
+    </Panel> */}
   </Collapse>
 );
 export default PriceDropDownOne;

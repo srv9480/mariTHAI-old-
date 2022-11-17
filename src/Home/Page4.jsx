@@ -18,7 +18,7 @@ export default function Page4() {
               <YMap />
             </div>
             <div className='container-contacts-right'>
-              <div className='contacts-right-main' style={{ fontSize: '16px' }}>
+              <div className='contacts-right-main' style={{ fontSize: '18px' }}>
                 <div className='right-main-text'>
                   г. Москва, Ильменский проезд, 17к3 <br />
                   График работы: с 9 до 19 ч <br />
