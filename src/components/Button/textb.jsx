@@ -15,14 +15,11 @@ class Button extends React.Component {
             ${this.props.color} + 
             ${this.props.size}`}
         style={this.props.style}
-
       >
         {<Icon icon={this.props.icon} />}
         {this.props.text}
       </button>
-
     );
   }
 }
 export default Button;
-

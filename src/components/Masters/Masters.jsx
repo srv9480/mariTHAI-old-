@@ -17,42 +17,21 @@ const Masters = () => {
         <div className="img-container">
           <img src={master1} alt={name} className="person-img" /></div>
         <div className="name-master">
-          Мастер Румон</div>
+          Мастер Кеу</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">Первоклассный специалист, владеет уникальными методами детального прорабатывания тела, очень востребована среди спортсменов.</div>
       </div>
       <div className="main-masters">
         <div className="img-container">
           <img src={master2} alt={name} className="person-img" /></div>
-        <div className="name-master">Миссис Харакири</div>
+        <div className="name-master">Мастер Нан</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">{text}</div>
       </div>
       <div className="main-masters">
         <div className="img-container">
           <img src={master4} alt={name} className="person-img" /></div>
-        <div className="name-master">Тётя Матильда</div>
-        {/* <div className="job">{job}</div> */}
-        <div className="info">{text}</div>
-      </div>
-      <div className="main-masters">
-        <div className="img-container">
-          <img src={master3} alt={name} className="person-img" /></div>
-        <div className="name-master">Мастер X</div>
-        {/* <div className="job">{job}</div> */}
-        <div className="info">{text}</div>
-      </div>
-      <div className="main-masters">
-        <div className="img-container">
-          <img src={master3} alt={name} className="person-img" /></div>
-        <div className="name-master">Мастер Y</div>
-        {/* <div className="job">{job}</div> */}
-        <div className="info">{text}</div>
-      </div>
-      <div className="main-masters">
-        <div className="img-container">
-          <img src={master3} alt={name} className="person-img" /></div>
-        <div className="name-master">Мастер Z</div>
+        <div className="name-master">Мастер Тан</div>
         {/* <div className="job">{job}</div> */}
         <div className="info">{text}</div>
       </div>
