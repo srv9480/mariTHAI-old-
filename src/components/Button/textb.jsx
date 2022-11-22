@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import './styles.css';
-import Icon from "./Icons";
+import Icon from './Icons';
 
 class Button extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Button extends React.Component {
 
       <button
         type={this.props.type}
-        onClick={event => onClickHandler(event.target)}
+        onClick={(event) => onClickHandler(event.target)}
         className={`${this.props.theme} + 
             button + 
             ${this.props.color} + 

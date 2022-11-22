@@ -1,21 +1,24 @@
-import React, { createContext, useRef, useState } from 'react'
+import React, { createContext, useRef, useState } from 'react';
 
-export const ContextApp = createContext()
+export const ContextApp = createContext();
 
+function ContextAppProvider(props) {
+  const [scrolled, setScrolled] = useState(false);
+  const notifisystem = useRef();
+  const [keyword, setKeyword] = useState('');
 
-const ContextAppProvider = props => {
-  const [scrolled, setScrolled] = useState(false)
-  const notifisystem = useRef()
-  const [keyword, setKeyword] = useState('')
-
-
-  return <ContextApp.Provider 
-  value={{ 
-  scrolled, setScrolled,
-  notifisystem,
-  keyword, setKeyword
-  }}>
+  return (
+    <ContextApp.Provider
+      value={{
+        scrolled,
+        setScrolled,
+        notifisystem,
+        keyword,
+        setKeyword,
+      }}
+    >
       {props.children}
-  </ContextApp.Provider>
+    </ContextApp.Provider>
+  );
 }
-export default ContextAppProvider
+export default ContextAppProvider;

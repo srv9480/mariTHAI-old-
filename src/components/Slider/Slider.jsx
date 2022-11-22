@@ -1,22 +1,22 @@
-import React, { useEffect, useReducer, useState } from "react";
-import Slide from "./Slide.jsx";
+import React, { useEffect, useReducer, useState } from 'react';
+import Slide from './Slide.jsx';
 
-export default function(props) {
+export default function (props) {
   const initialState = {
     current: 0,
-    slides: []
+    slides: [],
   };
 
   const reducer = (state, action) => {
     switch (action.type) {
-      case "slides":
+      case 'slides':
         return { ...state, slides: action.slides };
-      case "next":
+      case 'next':
         return { ...state, current: state.current + 1 };
-      case "prev":
+      case 'prev':
         return { ...state, current: state.current - 1 };
       default:
-        return "hello";
+        return 'hello';
     }
   };
 
@@ -24,31 +24,31 @@ export default function(props) {
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
-    const slides = props.slides.map(slide => ({
+    const slides = props.slides.map((slide) => ({
       slide,
-      className: "Carousel-single"
+      className: 'Carousel-single',
     }));
-    slides[0].className = "Carousel-single Carousel-active";
-    slides[1].className = "Carousel-single Carousel-proactive";
+    slides[0].className = 'Carousel-single Carousel-active';
+    slides[1].className = 'Carousel-single Carousel-proactive';
     dispatch({
-      type: "slides",
-      slides
+      type: 'slides',
+      slides,
     });
     setTimeout(() => {
       const height = document.getElementsByClassName(
-        "Carousel-single Carousel-active"
+        'Carousel-single Carousel-active',
       )[0].clientHeight;
       setHeight(height);
-      window.addEventListener("resize", windowReseize);
+      window.addEventListener('resize', windowReseize);
     });
     return () => {
-      window.removeEventListener("resize", windowReseize);
+      window.removeEventListener('resize', windowReseize);
     };
   }, [props.slides]);
 
-  const windowReseize = e => {
+  const windowReseize = (e) => {
     const height = document.getElementsByClassName(
-      "Carousel-single Carousel-active"
+      'Carousel-single Carousel-active',
     )[0].clientHeight;
     setHeight(height);
   };
@@ -56,25 +56,20 @@ export default function(props) {
   const goToPrevSlide = () => {
     if (current - 1 >= 0) {
       const newCurrent = current - 1;
-      const newSlider = slides.map(slide => {
-        return { ...slide, className: "Carousel-single" };
-      });
-      newSlider[newCurrent].className = "Carousel-single Carousel-active";
+      const newSlider = slides.map((slide) => ({ ...slide, className: 'Carousel-single' }));
+      newSlider[newCurrent].className = 'Carousel-single Carousel-active';
       if (newCurrent === 0) {
-        newSlider[newCurrent + 1].className =
-          "Carousel-single Carousel-proactive";
+        newSlider[newCurrent + 1].className = 'Carousel-single Carousel-proactive';
       } else if (newCurrent > 0) {
-        newSlider[newCurrent + 1].className =
-          "Carousel-single Carousel-proactive";
-        newSlider[newCurrent - 1].className =
-          "Carousel-single Carousel-preactive";
+        newSlider[newCurrent + 1].className = 'Carousel-single Carousel-proactive';
+        newSlider[newCurrent - 1].className = 'Carousel-single Carousel-preactive';
       }
       dispatch({
-        type: "prev"
+        type: 'prev',
       });
       dispatch({
-        type: "slides",
-        slides: newSlider
+        type: 'slides',
+        slides: newSlider,
       });
     }
   };
@@ -82,51 +77,44 @@ export default function(props) {
   const goToNextSlide = () => {
     if (current + 1 < slides.length) {
       const newCurrent = current + 1;
-      const newSlider = slides.map(slide => {
-        return { ...slide, className: "Carousel-single" };
-      });
-      newSlider[newCurrent].className = "Carousel-single Carousel-active";
+      const newSlider = slides.map((slide) => ({ ...slide, className: 'Carousel-single' }));
+      newSlider[newCurrent].className = 'Carousel-single Carousel-active';
       if (newCurrent === slides.length - 1) {
-        newSlider[newCurrent - 1].className =
-          "Carousel-single Carousel-preactive";
+        newSlider[newCurrent - 1].className = 'Carousel-single Carousel-preactive';
       } else if (newCurrent > 0) {
-        newSlider[newCurrent + 1].className =
-          "Carousel-single Carousel-proactive";
-        newSlider[newCurrent - 1].className =
-          "Carousel-single Carousel-preactive";
+        newSlider[newCurrent + 1].className = 'Carousel-single Carousel-proactive';
+        newSlider[newCurrent - 1].className = 'Carousel-single Carousel-preactive';
       }
       dispatch({
-        type: "next"
+        type: 'next',
       });
       dispatch({
-        type: "slides",
-        slides: newSlider
+        type: 'slides',
+        slides: newSlider,
       });
     }
   };
 
   return (
-      <div style={{ height }} className="Carousel">
-        <div className="Carousel-wrapper">
-          {slides.map((slide, index) => {
-            return (
-              <div key={index} className={slide.className}>
-                <LeftArrow goToPrevSlide={goToPrevSlide} />
-                <Slide
-                  changeHeight={windowReseize}
-                  active={index === current}
-                  image={slide.slide}
-                />
-                <RightArrow goToNextSlide={goToNextSlide} />
-              </div>
-            );
-          })}
-        </div>
+    <div style={{ height }} className="Carousel">
+      <div className="Carousel-wrapper">
+        {slides.map((slide, index) => (
+          <div key={index} className={slide.className}>
+            <LeftArrow goToPrevSlide={goToPrevSlide} />
+            <Slide
+              changeHeight={windowReseize}
+              active={index === current}
+              image={slide.slide}
+            />
+            <RightArrow goToNextSlide={goToNextSlide} />
+          </div>
+        ))}
       </div>
+    </div>
   );
 }
 
-const LeftArrow = props => {
+function LeftArrow(props) {
   return (
     <div className="Carousel-backArrow" onClick={props.goToPrevSlide}>
       <div>
@@ -134,9 +122,9 @@ const LeftArrow = props => {
       </div>
     </div>
   );
-};
+}
 
-const RightArrow = props => {
+function RightArrow(props) {
   return (
     <div className="Carousel-nextArrow" onClick={props.goToNextSlide}>
       <div>
@@ -144,4 +132,4 @@ const RightArrow = props => {
       </div>
     </div>
   );
-};
+}

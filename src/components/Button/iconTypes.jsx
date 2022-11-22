@@ -1,5 +1,4 @@
 export const IconTypes = {
-    NONE: "none",
-    SAVE: "save"
-  };
-  
+  NONE: 'none',
+  SAVE: 'save',
+};

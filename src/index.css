@@ -1,13 +1,8 @@
 @import './assets/fonts/Lora/stylesheet.css';
 
-/* * ul {
+ * ul {
   padding-inline-start: 0px;
- 
-} */
-
-a {
-  color: white;
-}
+} 
 
 .fixed {
   position: relative;

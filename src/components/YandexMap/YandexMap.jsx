@@ -1,6 +1,6 @@
-import React from "react";
-import { YMaps, Map, Placemark } from "react-yandex-maps";
-import './style.less'
+import React from 'react';
+import { YMaps, Map, Placemark } from 'react-yandex-maps';
+import './style.less';
 
 export default function YMap() {
   const mapData = {
@@ -10,17 +10,19 @@ export default function YMap() {
   };
 
   const coordinates = [
-    [55.861287, 37.541243], 
+    [55.861287, 37.541243],
   ];
 
   return (
     <div>
-      <YMaps
-      >
-        <Map defaultState={mapData} class={'map-large'}
+      <YMaps>
+        <Map
+          defaultState={mapData}
+          class="map-large"
         >
-          {coordinates.map(coordinate => <Placemark geometry={coordinate}
-          />)}
+          {coordinates.map((coordinate) => (
+            <Placemark geometry={coordinate} />
+          ))}
         </Map>
       </YMaps>
     </div>

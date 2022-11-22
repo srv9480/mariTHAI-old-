@@ -8,14 +8,15 @@
 .ant-tabs-nav .ant-tabs-tab-active {
   font-weight: 600;
 }
-
+.price-dropdown {
+  color: #4b4444;
+}
 .price-dropwdown-name {
-  text-transform: uppercase;
   font-weight: 600;
   display: flex;
+  color: #4b4444;
   text-align: center;
   align-items: center;
-  text-transform: uppercase;
 }
 
 .list-price_item-left {
@@ -28,7 +29,8 @@
 }
 
 .i-price_item-right {
-  font-weight: 600;
+  font-weight: 500;
+
   .list-price_item-time {
     font-weight: 500;
   }
@@ -44,6 +46,7 @@
   .price-content-img {
     display: flex;
     width: 49%;
+
     >img {
       max-width: 920px;
       width: 100%;
@@ -51,9 +54,17 @@
     }
   }
 
+  .text-border-title {
+    color: #534b4b;
+    text-align: start;
+  }
+
   .price-content-text {
+    padding-top: .7rem;
     display: flex;
     width: 49%;
+    color: #534b4b;
+    text-align: start;
   }
 }
 
@@ -63,19 +74,20 @@
 
 @media screen and (max-width: 1200px) {
   .info-text-border {
-    border: none!important;
+    border: none !important;
   }
+
   .price-content {
     display: block;
 
     .price-content-img {
-      justify-content: center!important;
+      justify-content: center !important;
       width: 100%;
     }
   }
 
   .price-content-text {
-    width: 100%!important;
+    width: 100% !important;
   }
 
   .info-text-border {
@@ -87,35 +99,44 @@
   .button-hide-off {
     display: none;
   }
+
   .button-hide {
     padding-bottom: .5rem;
   }
+
   button {
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
+
 @media screen and (max-width: 768px) {
 
   .button-hide {
     display: none;
   }
+
   .button-hide-off {
     padding-bottom: .6rem;
     padding-top: .6rem;
   }
+
   button {
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
+
   .price-content {
     display: block;
   }
+
   .price-dropwdown-name {
     font-size: 16px;
     text-align: start;
   }
+
   .i-price_item-right-i {
     width: 70px;
+    color: #4b4444!important;
   }
 }

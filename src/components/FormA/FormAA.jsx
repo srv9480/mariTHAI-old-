@@ -1,9 +1,10 @@
-import React from "react";
-import "./styles.css";
-const MyForm = ({ inputHandler, formSubmit }) => {
+import React from 'react';
+import './styles.css';
+
+function MyForm({ inputHandler, formSubmit }) {
   return (
-    <div className="col-lg-12 form-content" style={{marginTop: '1.6rem'}}>
-      <div className="col-lg-4" style={{ marginBottom: "10px" }}>
+    <div className="col-lg-12 form-content" style={{ marginTop: '1.6rem' }}>
+      <div className="col-lg-4" style={{ marginBottom: '10px' }}>
         <input
           type="text"
           name="nameField"
@@ -11,7 +12,7 @@ const MyForm = ({ inputHandler, formSubmit }) => {
           onChange={inputHandler}
         />
       </div>
-      <div className="col-lg-4" style={{ marginBottom: "10px" }}>
+      <div className="col-lg-4" style={{ marginBottom: '10px' }}>
         <input
           type="text"
           name="mobileField"
@@ -19,8 +20,8 @@ const MyForm = ({ inputHandler, formSubmit }) => {
           onChange={inputHandler}
         />
       </div>
-      <div className="col-lg-4" style={{ marginBottom: "10px" }}>
-        <button type="submit" style={{width: '380px'}} onClick={formSubmit}>
+      <div className="col-lg-4" style={{ marginBottom: '10px' }}>
+        <button type="submit" style={{ width: '380px' }} onClick={formSubmit}>
           Получить
         </button>
       </div>
@@ -32,6 +33,6 @@ const MyForm = ({ inputHandler, formSubmit }) => {
       </div>
     </div>
   );
-};
+}
 
 export default MyForm;

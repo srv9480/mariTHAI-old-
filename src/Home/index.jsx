@@ -6,15 +6,14 @@ import Price from './Price';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import './static/style';
-import '.././index.css';
-
+import '../index.css';
 
 class Home extends React.PureComponent {
   render() {
     return (
       <div>
-        <div className='fixed'>
-          <div className='bgcover'></div>
+        <div className="fixed">
+          <div className="bgcover" />
         </div>
         <div className="home-page">
           <Banner key="banner" />

@@ -15,6 +15,7 @@
     "enquire-js": "^0.1.0",
     "file-loader": "^6.2.0",
     "formik": "^2.2.9",
+    "hamburger-react": "^2.5.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "prop-types": "^15.8.1",
@@ -22,11 +23,13 @@
     "rc-queue-anim": "^1.4.0",
     "rc-scroll-anim": "^2.1.0",
     "rc-tween-one": "^1.5.5",
-    "react": "^16.1.1",
+    "react": "^16.8.0",
+    "react-animated-burgers": "^1.2.8",
     "react-document-title": "^2.0.3",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.8.0 ",
     "react-form": "^4.0.1",
     "react-github-button": "^0.1.11",
+    "react-https-redirect": "^1.1.0",
     "react-modal": "^3.16.1",
     "react-scroll": "^1.8.8",
     "react-slideshow-image": "^4.0.5",
@@ -37,6 +40,8 @@
     "style-loader": "^3.3.1",
     "typescript": "^4.8.4",
     "url-loader": "^4.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
     "yup": "^0.32.11"
   },
@@ -60,6 +65,7 @@
     "redbox-react": "^1.5.0",
     "typescript": "^4.8.4",
     "webp-loader": "^0.6.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
   },
   "pre-commit": [
@@ -73,6 +79,7 @@
     "test": "atool-test-mocha ./**/__tests__/*-test.js",
     "deploy": "rm -rf dist && npm run build && node ./deploy.js",
     "webp": "simple-webp-converter",
-    "run": "webpack-dev-server"
+    "run": "webpack-dev-server --plugins webpack",
+    "buildd": "webpack --mode=development"
   }
 }

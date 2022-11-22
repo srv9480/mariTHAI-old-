@@ -2,10 +2,9 @@ import React from 'react';
 import './styles.less';
 
 export default function ButtonSmall() {
-
   return (
     <button
-    className="btn-large"
+      className="btn-large"
       onClick={() => {
         window.location.href = 'https://w583606.yclients.com';
       }}
@@ -13,4 +12,4 @@ export default function ButtonSmall() {
       Записаться
     </button>
   );
-};
+}

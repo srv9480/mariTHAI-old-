@@ -1,6 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 
-const Slide = ({ image, style, active, changeHeight }) => {
+function Slide({
+  image, style, active, changeHeight,
+}) {
   const slideRef = useRef(null);
 
   const loaded = () => {
@@ -9,10 +11,10 @@ const Slide = ({ image, style, active, changeHeight }) => {
     }
   };
   return (
-    <div ref={slideRef} style={style} className={`Carousel-single-content`}>
+    <div ref={slideRef} style={style} className="Carousel-single-content">
       <img onLoad={loaded} src={image} alt="img" />
     </div>
   );
-};
+}
 
 export default Slide;

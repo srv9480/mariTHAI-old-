@@ -1,8 +1,7 @@
 import { Tabs } from 'antd';
 import React from 'react';
 
-
-const TabsComponent = () => {
+function TabsComponent() {
   return (
     <div>
       <Tabs defaultActiveKey="1">
@@ -15,5 +14,5 @@ const TabsComponent = () => {
       </Tabs>
     </div>
   );
-};
+}
 export default TabsComponent;
