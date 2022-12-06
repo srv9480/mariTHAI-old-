@@ -17,7 +17,7 @@ export default function Price() {
           <div className="about-info" id="about-info">
             <div className="about-info-text">
               <div className="info-text-border">
-                <h2 style={{ fontSize: 36, paddingTop: '2rem' }}>Тайский массаж MARI THAI в Москве</h2>
+                <h2 style={{ fontSize: 36, paddingTop: '1rem' }}>Тайский массаж MARI THAI в Москве</h2>
                 <div className="text-border-title" style={{ padding: '1.5rem' }}>
                   Мы ценин уют, комфорт и качество, именно поэтому в нашем салоне вы испыатете ту самую магию релакса, забудете о всех проблемах и полноценно отдохнете. Наши мастера настоящие профессионалы из Тайланда.
                   Попробуйте наши незабываемые программы из раздела МАССАЖ или SPA
