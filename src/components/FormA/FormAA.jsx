@@ -1,20 +1,20 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 import './styles.css';
 import { useAlert } from 'react-alert'
 import InputMask from 'react-input-mask';
 function MyForm({ inputHandler, formSubmit }) {
-const form = useRef();
-const alert = useAlert()
-const sendEmail = (e) => {
-  e.preventDefault();
-  emailjs.sendForm('service_mgitona', 'template_vmczf8v',  form.current, 'C5iVVYYlk6lOdCBim')
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
-};
+// const form = useRef();
+const alert = useAlert();
+// const sendEmail = (e) => {
+//   e.preventDefault();
+//   emailjs.sendForm('service_mgitona', 'template_vmczf8v',  form.current, 'C5iVVYYlk6lOdCBim')
+//     .then((result) => {
+//         console.log(result.text);
+//     }, (error) => {
+//         console.log(error.text);
+//     });
+// };
   return (
     <div className="col-lg-12 form-content" style={{ marginTop: '1.6rem' }}>
      <form ref={form} onSubmit={sendEmail}>
