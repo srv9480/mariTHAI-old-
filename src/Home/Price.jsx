@@ -35,7 +35,7 @@ export default function Price() {
 
               <div className="info-text-service">
                 <div className="info-text-service-discount">
-                  <span style={{ color: 'red', fontSize: '24px' }}>Скидка 15%</span>
+                  <span style={{ color: 'red', fontSize: '24px' }}>Скидка 20%</span>
                   <div className="service-discount-text">Запишись сейчас и получи скидку в нашем салоне на любую услугу</div>
                 </div>
                 <div className="info-text-service-discount">
